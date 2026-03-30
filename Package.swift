@@ -38,38 +38,49 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "AlibabaCloudRUM",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/AlibabaCloudRUM.xcframework.zip",
-            checksum: "692ef66fd939b772a0694d1c3b3871dd6841a653eea97907e39d6bf680f1bffb"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/AlibabaCloudRUM.xcframework.zip",
+            checksum: "28b0ce00b65257a2ed07bae18f0661de5f938bd70ca40bdd66d764d119800dd3"
         ),
         .binaryTarget(
             name: "FMDB",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/FMDB.xcframework.zip",
-            checksum: "816f9f52f6acc86171a41a6c0acdfe54231be33baf990dd8caaa9983c8a790f2"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/FMDB.xcframework.zip",
+            checksum: "649a8d7fa1f888131fef1b02c473861ff85cda3e3249eb607c8123d99f320fd8"
         ),
         .binaryTarget(
             name: "NetKitUnityBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/NetKitUnityBridge.xcframework.zip",
-            checksum: "81e261594b73bd667ae8876e6b99e625fd7652ab639e7cac736bba02eea012bb"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/NetKitUnityBridge.xcframework.zip",
+            checksum: "0e873f94d512e62a4ae106d9763a9a28e14a00406da530addea9fe7926413199"
         ),
         .binaryTarget(
             name: "OpenBusiness",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/OpenBusiness.xcframework.zip",
-            checksum: "1b20b51842a924e110fb704f98ef462c7c5ff14b6fc305b6aa94ee4c48e548ce"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/OpenBusiness.xcframework.zip",
+            checksum: "ccfbaf49b3436e87493ca0505ac3b46cfb0ce608a7014d1c73f36854f9f83d3c"
         ),
         .binaryTarget(
             name: "OpenCore",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/OpenCore.xcframework.zip",
-            checksum: "1e080bd1b275e3945e1d5f1949ca6888c3778546dde5ddce4abf783a904f0eeb"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/OpenCore.xcframework.zip",
+            checksum: "7ef7881973a5edd8a0a2c8bd2dd647a3ae488dc0de5a4dfa707a5b5b0bac98ee"
         ),
         .binaryTarget(
             name: "OpenRUM",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/OpenRUM.xcframework.zip",
-            checksum: "feb1c9e04587d91f35817d8ce9e7dc7ef7d4a3e14c38cf2389afce3062fe1fc9"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/OpenRUM.xcframework.zip",
+            checksum: "ba8d9f91a41b5df33a913149995edde508cf435ec6cd51a9bfbb6fda5706cb37"
         ),
         .binaryTarget(
             name: "YYModel",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.0/YYModel.xcframework.zip",
-            checksum: "48adb50f2a778496b09bd1f99f61028b40555ac093d568765c64d92efc7c0c82"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.1/YYModel.xcframework.zip",
+            checksum: "c70813ae36cecec476701764494d3ad1d9aef75cf07f1b5c75a0e5f7b24f9b09"
+        ),
+        
+        // ========== Bundle Resources ==========
+        .target(
+            name: "NetKitUnityBridgeCommonResources",
+            dependencies: [],
+            path: "NetKitUnityBridgeCommonResources",
+            exclude: ["Resources"],
+            sources: ["Placeholder.swift"],
+            resources: [.copy("Resources")],
+            publicHeadersPath: nil
         )
     ]
 )
