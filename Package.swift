@@ -38,28 +38,28 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "AlibabaCloudRUM",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1473191/AlibabaCloudRUM.xcframework.zip",
-            checksum: "7f8b863d0f4611258d4496d8c80e0c024bc0f1c50dbe36fef74db4b2b72dd0a1"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474835/AlibabaCloudRUM.xcframework.zip",
+            checksum: "9e954d2980038bed7e556490ca703e14551621c1c2da9b8ecd2b257896bc5bb7"
         ),
         .binaryTarget(
             name: "AlibabaCloudRUMSDK",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1473191/AlibabaCloudRUMSDK.xcframework.zip",
-            checksum: "8f3ff35c0327d035505bbe448f3ed39638e1ee91ecc7327fc97ed1cbd34d0148"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474835/AlibabaCloudRUMSDK.xcframework.zip",
+            checksum: "eee7c03f27a24b0d4505d5594d8391a1093f78d0e9012aed5fb63b98ee676132"
         ),
         .binaryTarget(
             name: "FMDB",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1473191/FMDB.xcframework.zip",
-            checksum: "76356a939b5904a7cfb91f2e9d6254765b1b4a660535acdd7a2aec4d6f26465b"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474835/FMDB.xcframework.zip",
+            checksum: "3040e124d2958105a1c72eff8e8c4e5fffe2f6ff0f5780fbc5e1b52dc9a8bd59"
         ),
         .binaryTarget(
             name: "NetKitUnityBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1473191/NetKitUnityBridge.xcframework.zip",
-            checksum: "d4980a6163f14e1fb99cb46716f7544283bd8986eb90f26ef9dd6177f086f34a"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474835/NetKitUnityBridge.xcframework.zip",
+            checksum: "251164a9f8b42f828cee9783deb842051219daa0a5cc7ce5a1647f2dbedfef87"
         ),
         .binaryTarget(
             name: "YYModel",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1473191/YYModel.xcframework.zip",
-            checksum: "53c653a3edb103d6e4064420187ca9108390d746b48d77b884f7579f9cc13dde"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474835/YYModel.xcframework.zip",
+            checksum: "0438989f25d57d55c0dc3993ee7cdb0e6a3cb07471170681138b3e6698b4e2e6"
         ),
         
         // ========== Bundle Resources ==========
