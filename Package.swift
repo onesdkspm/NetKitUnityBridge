@@ -34,8 +34,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "NetKitUnityBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1474951/NetKitUnityBridge.xcframework.zip",
-            checksum: "15235858eb6a680080d45cd724430260d6e579ebb441b7d5923a6a1c67307bb5"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/1.2.7-dev-1477230/NetKitUnityBridge.xcframework.zip",
+            checksum: "776f6b5df21cc664b5bd9ccd7ce204444ee48fa4c9185f6c87ac657d42cf7033"
         ),
         
         // ========== Bundle Resources ==========
