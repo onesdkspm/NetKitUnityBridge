@@ -11,8 +11,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.0"),
-        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "1.0.0"),
+        .package(url: "https://github.com/onesdkspm/UnityBridge.git", from: "2.0.3"),
+        .package(url: "https://github.com/onesdkspm/BTSDKUIKitCore.git", from: "2.0.3"),
     ],
     targets: [
         // ========== Wrapper Target（统一管理系统依赖）==========
@@ -34,8 +34,8 @@ let package = Package(
         // ========== Binary Frameworks ==========
         .binaryTarget(
             name: "NetKitUnityBridge",
-            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.2/NetKitUnityBridge.xcframework.zip",
-            checksum: "4105f423dcf2bc06c80ad5efaa64dc02a65bce0edbe19b9f3c10e6c2c74444ac"
+            url: "https://yw-depot-nexus.100bt.com/repository/onesdk-ios-trunk/spm/NetKitUnityBridge/2.0.3/NetKitUnityBridge.xcframework.zip",
+            checksum: "8a5f21ce3d028619f2115cc69a05886b25f3799d3a821f06f9e7ebf95c994f79"
         ),
         
         // ========== Bundle Resources ==========
